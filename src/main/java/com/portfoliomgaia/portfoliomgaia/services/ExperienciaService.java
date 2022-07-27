@@ -13,7 +13,6 @@ import org.springframework.transaction.annotation.Transactional;
 public class ExperienciaService {
     private final IExperienciaRepository iExperienciaRepository;
     
-    @Autowired
     public ExperienciaService(IExperienciaRepository iExperienciaRepository) {
         this.iExperienciaRepository = iExperienciaRepository;
     }

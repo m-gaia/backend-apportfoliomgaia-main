@@ -14,8 +14,6 @@ public class HabilidadesService {
     
     private final IHabilidadesRepository iHabilidadesRepository;
     
-    @Autowired
-
     public HabilidadesService(IHabilidadesRepository iHabilidadesRepository) {
         this.iHabilidadesRepository = iHabilidadesRepository;
     }

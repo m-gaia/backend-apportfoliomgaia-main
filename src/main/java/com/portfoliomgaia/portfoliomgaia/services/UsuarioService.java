@@ -12,9 +12,9 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Transactional
 public class UsuarioService {
+    
     private final IUsuarioRepository iUsuarioRepository;
 
-    @Autowired
     public UsuarioService(IUsuarioRepository iUsuarioRepository) {
         this.iUsuarioRepository = iUsuarioRepository;
     }
@@ -30,7 +30,8 @@ public class UsuarioService {
     }
     
     public Usuario buscarIdUsuario (Long id) {
-        return iUsuarioRepository.findById(id).orElseThrow(() -> new UserNotFoundException("Usuario no encontrado"));
+        return iUsuarioRepository.findById(id)
+                .orElseThrow(() -> new UserNotFoundException("Usuario no encontrado"));
         
     }
     

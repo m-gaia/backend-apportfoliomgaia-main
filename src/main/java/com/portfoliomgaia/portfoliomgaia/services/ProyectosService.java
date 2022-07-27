@@ -14,8 +14,6 @@ public class ProyectosService {
     
     private final IProyectosRepository iProyectosRepository;
     
-    @Autowired 
-
     public ProyectosService(IProyectosRepository iProyectosRepository) {
         this.iProyectosRepository = iProyectosRepository;
     }

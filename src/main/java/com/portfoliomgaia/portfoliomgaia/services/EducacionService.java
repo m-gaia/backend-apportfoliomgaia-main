@@ -15,7 +15,6 @@ public class EducacionService {
     private final IEducacionRepository iEducacionRepository;
 
 //inyeccion
-    @Autowired
     public EducacionService(IEducacionRepository iEducacionRepository) {
         this.iEducacionRepository = iEducacionRepository;
     }

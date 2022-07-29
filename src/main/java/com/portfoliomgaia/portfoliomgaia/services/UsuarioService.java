@@ -1,5 +1,4 @@
-
-/*package com.portfoliomgaia.portfoliomgaia.services;
+package com.portfoliomgaia.portfoliomgaia.services;
 
 import com.portfoliomgaia.portfoliomgaia.exceptions.UserNotFoundException;
 import com.portfoliomgaia.portfoliomgaia.models.Usuario;
@@ -29,7 +28,7 @@ public class UsuarioService {
         return iUsuarioRepository.findAll();
     }
     
-   /* public Usuario buscarIdUsuario (Long id) {
+    public Usuario buscarIdUsuario (Long id) {
         return iUsuarioRepository.findById(id)
                 .orElseThrow(() -> new UserNotFoundException("Usuario no encontrado"));
         
@@ -45,4 +44,4 @@ public class UsuarioService {
 
     
     
-}*/
+}

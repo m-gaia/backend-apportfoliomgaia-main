@@ -1,5 +1,5 @@
 
-package com.portfoliomgaia.portfoliomgaia.controller;
+/*package com.portfoliomgaia.portfoliomgaia.controller;
 
 import com.portfoliomgaia.portfoliomgaia.models.Usuario;
 import com.portfoliomgaia.portfoliomgaia.services.UsuarioService;
@@ -35,4 +35,4 @@ public class UsuarioController {
         return new ResponseEntity<> (actualizarUsuario, HttpStatus.OK);
     }
     
-}
+}*/
